@@ -133,7 +133,7 @@ public class WordCount {
     long end = System.currentTimeMillis();
     System.out.println("Time before execution: " + start);
     System.out.println("Time after execution: " + end);
-    System.out.println("Total execution time: " + (start-end));
+    System.out.println("Total execution time: " + (end-start));
     System.exit(0);
   }
 }
